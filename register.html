@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+     <!-- 
+    - favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+    -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+<body id="login-body">
+    
+    <!--
+        Register
+    -->
+
+    <section class="login" aria-label="login">
+
+            <div class="form-box login-box">
+
+                <form action="" class="form">
+
+                    <a href="./index.html" class="logo">
+                        <img src="./images/cex.svg" alt="" width="32" height="32" />
+                        Cryptex<span>fx</span>
+                    </a>
+        
+                    <h2 class="h2 section-title text-lg">Register</h2>
+
+                    <div class="input-wrapper">
+                        <input type="text" placeholder="Name*" required class="input-field">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <input type="text" placeholder="Username*" required class="input-field">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <input type="email" placeholder="Email*" required class="input-field">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <input type="password" placeholder="Password*" required class="input-field">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <input type="password" placeholder="Confirm password*" required class="input-field">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <select name="account-type" id="account-type" class="dropdown-list">
+
+                            <option value="500">Mini</option>
+                            <option value="1000">Silver</option>
+                            <option value="2000">Gold</option>
+                            <option value="5000">Platinum</option>
+
+                        </select>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <select name="currency" id="currency" class="dropdown-list">
+
+                            <option value="usd">USD</option>
+                            <option value="eur">EUR</option>
+                            <option value="gbp">GBP</option>
+                            <option value="btc">BTC</option>
+
+                        </select>
+                    </div>
+
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                            I have read and accepted the following
+                             <a href="./terms.html">Terms</a>
+                        </label>
+                    </div>
+
+                    <button class="button" type="submit">Register</button>
+
+                    <div class="register-link">
+                        <p>Already have an account? <a href="./login.html">Login</a></p>
+                    </div>
+
+                </form>
+
+            </div>
+
+    </section>
+
+
+     <!-- 
+    - Custom js link
+    -->
+    <script src="./js/index.js"></script>
+    <!-- 
+    - ionicon link
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>

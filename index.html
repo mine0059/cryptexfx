@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trading platform</title>
+
+    <!-- 
+    - favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+    -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+     <!-- 
+    - Preload images
+    -->
+
+    <link rel="Preload" as="image" href="./images/bg17.jpg">
+    <link rel="Preload" as="image" href="./images/bg16.jpg">
+    <link rel="Preload" as="image" href="./images/bg14.jpg">
+
+  </head>
+  <body>
+
+
+     <!-- 
+    - PRELOADER
+    -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Cryptex</p>
+    </div>
+
+
+    <!-- 
+    - Header
+    -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <img src="./images/cex.svg" alt="" width="32" height="32" />
+          Cryptex<span>fx</span>
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="./index.html" class="logo">
+              <img src="./images/cex.svg" alt="" width="32" height="32" />
+              Cryptex<span>fx</span>
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="./index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+            </li>
+            <li>
+              <a href="./about.html" class="navbar-link hover-1" data-nav-toggler>About</a>
+            </li>
+            <li>
+              <a href="./plans.html" class="navbar-link hover-1" data-nav-toggler>Plans</a>
+            </li>
+            <li>
+              <a href="./faqs.html" class="navbar-link hover-1" data-nav-toggler>Faq's</a>
+            </li>
+            <li>
+              <a href="./terms.html" class="navbar-link hover-1" data-nav-toggler>Terms</a>
+            </li>
+            <li>
+              <a href="./support.html" class="navbar-link hover-1" data-nav-toggler>Support</a>
+            </li>
+          </ul>
+
+          <div class="navbar-bottom">
+            
+              <img src="./images/tfc-icon.png" width="150" height="150" alt="">
+
+              <div class="nav-button">
+                <a href="./register.html" class="btn btn-primary m_b">register</a>
+                <a href="./login.html" class="btn btn-outline m_b">Log in</a>
+              </div>
+
+          </div>
+
+          <p class="copyright-text">
+            Copyright 2023 &copy; Cryptexfx Trading. All Right Reserved
+          </p>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+
+    <main>
+      <article>
+
+        <!-- 
+        - Hero
+        -->
+
+        <section class="hero" arial-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img src="./images/bg17.jpg" width="1880" height="950" alt="" class="img-cover">
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">financial advisors here</p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                we trade <br>
+                cryptocurrency
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                we do the trading for you <br>
+                in return you earn guaranteed high profit.
+              </p>
+      
+
+              <div class="hero-btn slider-reveal">
+                <a href="./register.html" class="btn btn-primary">register</a>
+
+                <a href="./login.html" class="btn btn-outline">login</a>
+              </div>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img src="./images/bg16.jpg" width="1880" height="950" alt="" class="img-cover">
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">we are leaders</p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                in bitcoin <br>
+                trading
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                we help out investors make the best out <br>
+                of cryptocurrency innovation through <br>
+                our team of expert traders.
+              </p>
+
+              <div class="hero-btn slider-reveal">
+                <a href="#" class="btn btn-primary">register</a>
+
+                <a href="#" class="btn btn-outline">login</a>
+              </div>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img src="./images/bg14.jpg" width="1880" height="950" alt="" class="img-cover">
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">find a good accountant</p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                online trading on <br>
+                financial markets
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                we look forward to getting to know you <br> 
+                and helping you take your business to the <br>
+                new heights!
+              </p>
+    
+            </li>
+
+          </ul>
+
+          <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+  
+          <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+          
+        </section>
+
+        <!-- 
+        - widget
+        -->
+
+        <div style="height:62px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 
+        1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; block-size:62px; 
+        font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: 
+        inset 0 -20px 0 0 #56667F;padding:1px;padding: 0px; margin: 0px; width: 
+        100%;"><div style="height:40px; padding:0px; margin:0px; width: 100%;">
+        <iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover=" 
+        width="100%" height="36px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" 
+        style="border:0;margin:0;padding:0;"></iframe></div><div style="color: #FFFFFF; line-height: 14px; 
+        font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: 
+        Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank" style="font-weight: 500; color: 
+        #FFFFFF; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by Coinlib</div></div>
+
+         <!-- 
+        - About
+        -->
+
+        <section class="section about" aria-label="about">
+          <div class="container">
+
+            <div class="about-banner" style="--width: 600; --height: 700;" >
+              <img src="./images/about-one1.png" alt="about banner" width="600" height="700" loading="lazy" class="img-cover">
+            </div>
+
+            <div class="about-content">
+              <h2 class="h2 section-title">Efficiency. Transpirency. control.</h2>
+
+              <p class="section-text">
+                With over 153,000 investment under our  management, $2 billion+ 
+                in our assets under our adminstration, over 11 industry awards, 
+                we have made Cryptexfx the safe haven for investors who wants to
+                trust their financial partner to be capable of helping them reach 
+                ...
+              </p>
+
+              <a class="btn btn-primary" href="./about.html">Learn More</a>
+            </div>
+
+          </div>
+        </section>
+
+        
+        <!-- 
+        - Number counter
+        -->
+
+        <section class="section counter" data-counter>
+
+          <div class="container">
+
+            <div class="content">
+
+              <div class="counters-in">
+
+                <ul class="counters-list">
+
+                  <li class="counters-items">
+                    <h2 class="animated-number couter-text text-center" data-value="365">0</h2>
+                    <div class="diamond-line-centered-theme-colored2"></div>
+                    <h4 class="counter-subtext text-center">running days</h4>
+                  </li>
+
+                  <li class="counters-items">
+                    <h2 class="animated-number couter-text text-center" data-value="17383">0</h2>
+                    <div class="diamond-line-centered-theme-colored2"></div>
+                    <h4 class="counter-subtext text-center">total investors</h4>
+                  </li>
+
+                  <li class="counters-items">
+                    <h2 class="animated-number couter-text text-center" data-value="11454538">0</h2>
+                    <div class="diamond-line-centered-theme-colored2"></div>
+                    <h4 class="counter-subtext text-center">total invested</h4>
+                  </li>
+
+                  <li class="counters-items">
+                    <h2 class="animated-number couter-text text-center" data-value="4241298">0</h2>
+                    <div class="diamond-line-centered-theme-colored2"></div>
+                    <h4 class="counter-subtext text-center">total withdrawn</h4>
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+          
+        </section>
+
+        <!-- 
+        - Profit
+        -->
+
+        <section class="section profit" aria-label="profit">
+          <div class="container">
+
+            <div class="profit-content">
+              <h2 class="h2 section-title text-lg">Profits from Market Ups & Downs</h2>
+
+              <hr class="title-line">
+
+              <p class="section-text">
+                Cryptexfx allows you to actively trade most popular cryptocurrencies
+                such as Bitcoin, Ethereum, Ripple, Litcoin, and more, profit from the
+                market rallies and declines, or hedges your existing cryptocurrency holdings. 
+              </p>
+            </div>
+
+            <div class="img-holder">
+              <img src="./images/graph.png" width="600" height="600" alt="profit graph" class="img-cover">
+            </div>
+
+          </div>
+        </section>
+
+        <!-- 
+        - Service
+        -->
+
+        <section class="section service" aria-labelledby="service-label">
+
+          <div class="container">
+
+            <div class="title-wrapper">
+
+              <div>
+                <p class="section-subtitle">
+                  Why choose Cryptexfx
+                </p>
+
+                <h2 class="h2 section-title text-lg" id="service-label">Services</h2>
+
+                <hr class="title-line">
+              </div>
+
+              <p class="section-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cum, molestiae
+                 quisquam sapiente ducimus voluptatum aperiam! Deserunt non optio hic,
+                 maiores, nisi nemo corrupti delectus iure explicabo labore, commodi quas.
+              </p>
+
+            </div>
+
+            <div class="slider" data-service-slider>
+
+              <ul class="slider-container service-list" data-service-slider-container>
+
+                <li class="slider-item" data-service-slider-items>
+                  <div class="service-card">
+
+                    <div class="card-img">
+                      <img src="./images/f3.png" width="80" height="80" alt="" class="service-img">
+                    </div>
+
+                    <h3 class="h3 card-title">our evolution</h3>
+
+                    <p class="card-text">
+                      We beleive that Bitcoin and blockchain network are landmark 
+                      innovation that will fundamentally reshape the global financial 
+                      system, and investors should be able to participate in the transformation.
+                    </p>
+
+                    <span class="text-lg card-number">01</span>
+
+                  </div>
+                </li>
+
+                <li class="slider-item" data-service-slider-items>
+                  <div class="service-card">
+
+                    <div class="card-img">
+                      <img src="./images/f6.png" width="80" height="80" alt="" class="service-img">
+                    </div>
+
+                    <h3 class="h3 card-title">capital markets</h3>
+
+                    <p class="card-text">
+                      Cryptexfx trade Markets matches human capitals with purpose 
+                      built infrastructure and systems to help institutional
+                      counterparties and private investors meet their unique
+                      liquidity needs through a full suits of trading, risk
+                      management and hedging service.
+                    </p>
+
+                    <span class="text-lg card-number">02</span>
+
+                  </div>
+                </li>
+
+                <li class="slider-item" data-service-slider-items>
+                  <div class="service-card">
+
+                    <div class="card-img">
+                      <img src="./images/f4.png" width="80" height="80" alt="" class="service-img">
+                    </div>
+
+                    <h3 class="h3 card-title">Active strategies</h3>
+
+                    <p class="card-text">
+                      Our mangeged strategies serve investors who prefer more tailored 
+                      investment approaches. access to these strategies are available to 
+                      all accredited investors. Our activity traded strategies provide 
+                      managed exposure to digital assets.
+                    </p>
+
+                    <span class="text-lg card-number">03</span>
+
+                  </div>
+                </li>
+
+                <li class="slider-item" data-service-slider-items>
+                  <div class="service-card">
+
+                    <div class="card-img">
+                      <img src="./images/f2.png" width="80" height="80" alt="" class="service-img">
+                    </div>
+
+                    <h3 class="h3 card-title">Instant Exchange</h3>
+
+                    <p class="card-text">
+                      Change your world today and make your self a great
+                      tomorrow, invest with the little money you have and make a 
+                      great profit at the end. we offer various withdrawal methods 
+                      for easy withdrawer of your earnings.
+                    </p>
+
+                    <span class="text-lg card-number">04</span>
+
+                  </div>
+                </li>
+
+              </ul>
+
+              <div class="slider-controls">
+                <button class="slider-control prev" data-service-slider-prev aria-label="slide to
+                  previous item">
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+
+                <button class="slider-control next" data-service-slider-next aria-label="slide to
+                  next item">
+                    <div class="line"></div>
+                    <div class="arrow"></div>
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+         <!-- 
+        - Research
+        -->
+
+        <section class="section research" aria-label="research">
+          <div class="container">
+
+            <div class="research-content">
+              <h2 class="h2 section-title text-lg">Research</h2>
+
+              <hr class="title-line">
+
+              <p class="section-text">
+               Below the hype and spaculation that have graped this emerging asset class,
+               there are market fundamentals. Our research aims to distill this information 
+               and separate signals from noise for novice and experienced digital asset investors alike. 
+              </p>
+            </div>
+
+            <div class="img-holder">
+              <img src="./images/graph2.jpg" width="600" height="600" alt="profit graph" class="img-cover">
+            </div>
+
+          </div>
+        </section>
+
+         <!-- 
+        - Steps
+        -->
+
+        <section class="section steps">
+          <div class="container">
+
+            <p class="section-subtitle"> 4 ways to profit from</p>
+
+            <h2 class="h2 section-title text-lg">Cryptexfx</h2>
+
+            <hr class="title-line">
+
+            <ul class="grid-list">
+              
+              <li>
+
+                <div class="steps-card" style="--color: 170, 75%, 41%">
+
+                  <div class="card-icon">
+                    <ion-icon name="people-outline"></ion-icon>
+                  </div>
+                
+
+                  <h3 class="h3 card-title">Create An Account</h3>
+
+                  <p class="card-text">
+                    Sign up for an account with us to get stated, it is easy and simple
+                  </p>
+
+                  <span class="text-lg card-number card-badge">01</span>
+
+                </div>
+              </li>
+
+              <li>
+
+                <div class="steps-card" style="--color: 351, 83%, 61%">
+
+                  <div class="card-icon">
+                    <ion-icon name="push-outline"></ion-icon>
+                  </div>
+                
+
+                  <h3 class="h3 card-title">Make Deposit</h3>
+
+                  <p class="card-text">
+                    Deposite into any of our investment plans of your choice.
+                  </p>
+                  
+                  <span class="text-lg card-number card-badge">02</span>
+
+                </div>
+              </li>
+
+              <li>
+
+                <div class="steps-card" style="--color: 229, 75%, 58%">
+
+                  <div class="card-icon">
+                    <ion-icon name="wallet-outline"></ion-icon>
+                  </div>
+                
+
+                  <h3 class="h3 card-title">Make Withdrawal</h3>
+
+                  <p class="card-text">
+                    You can withdraw as soon as your investment duration is completed.
+                  </p>
+                  
+                  <span class="text-lg card-number card-badge">03</span>
+
+                </div>
+              </li>
+
+              <li>
+
+                <div class="steps-card" style="--color: 42, 94%, 55%">
+
+                  <div class="card-icon">
+                    <ion-icon name="stats-chart-outline"></ion-icon>
+                  </div>
+                
+
+                  <h3 class="h3 card-title">Finish</h3>
+
+                  <p class="card-text">
+                    Click trade to enjoy precise and accurate hands-free trading.
+                  </p>
+                  
+                  <span class="text-lg card-number card-badge">04</span>
+
+                </div>
+              </li>
+
+              
+            </ul>
+
+          </div>
+        </section>
+
+         <!-- 
+        - Business
+        -->
+
+        <section class="business section" aria-labelledby="business-label">
+
+          <div class="title-wrapper container">
+  
+            <div>
+              <p class="section-subtitle" id="business-label">Other benefits</p>
+  
+              <h2 class="h2 section-title text-lg">The Non-farm Payrolls(NFP)</h2>
+
+              <hr class="title-line">
+            </div>
+  
+            <p class="section-text">
+              The non-farm payrolls report is one of the most anticipated economic news report in the forex markets. 
+              it is published the first friday of the month at 8:30AM Estern time by the U.S. Bureau of labor statistics.
+              The data realeased actually includes a number of statistics, and not just the NFP(which is a change in the
+              number of employers in the country, not including farm, government, private and non-profit employees)
+            </p>
+  
+          </div>
+  
+          <div class="slider" data-service-slider>
+  
+            <ul class="slider-container" data-service-slider-container>
+  
+              <li class="slider-item">
+                <div class="business-card img-holder" style="--width: 600; --height: 600;">
+  
+                  <img src="./images/bg4.jpg" width="600" height="600" loading="lazy" alt="business"
+                    class="img-cover">
+  
+                  <div class="card-content">
+                    <h3 class="h3 card-title">WORLD CLASS EXPERIENCE</h3>
+  
+                    <p class="card-text">
+                      Accessing investments should be seamless.
+                    </p>
+                  </div>
+  
+                  <a href="#" class="layer-link"></a>
+  
+                </div>
+              </li>
+  
+              <li class="slider-item">
+                <div class="business-card img-holder" style="--width: 600; --height: 600;">
+  
+                  <img src="./images/bg5.jpg" width="600" height="600" loading="lazy" alt="business"
+                    class="img-cover">
+  
+                  <div class="card-content">
+                    <h3 class="h3 card-title">BEST SPOKE SOLUTION</h3>
+  
+                    <p class="card-text">
+                      Our team can work with you to design solutions that are specific to your
+                      mandate and requirements.
+                    </p>
+                  </div>
+  
+                  <a href="#" class="layer-link"></a>
+  
+                </div>
+              </li>
+  
+              <li class="slider-item">
+                <div class="business-card img-holder" style="--width: 600; --height: 600;">
+  
+                  <img src="./images/featured-slider1.jpg" width="600" height="600" loading="lazy" alt="business"
+                    class="img-cover">
+  
+                  <div class="card-content">
+                    <h3 class="h3 card-title">ELECTRONIC MARKET LIQUIDITY</h3>
+  
+                    <p class="card-text">
+                      We offer a variety of liquidity provisioning services in secondary
+                      markets.
+                    </p>
+                  </div>
+  
+                  <a href="#" class="layer-link"></a>
+  
+                </div>
+              </li>
+  
+              <li class="slider-item">
+                <div class="business-card img-holder" style="--width: 600; --height: 600;">
+  
+                  <img src="./images/services.png" width="600" height="600" loading="lazy" alt="business"
+                    class="img-cover">
+  
+                  <div class="card-content">
+                    <h3 class="h3 card-title">ELECTRONIC EXECUTION</h3>
+  
+                    <p class="card-text">
+                      Our customer built APIs provide clients access to more than 10
+                      investment assetd*
+                    </p>
+                  </div>
+  
+                  <a href="#" class="layer-link"></a>
+  
+                </div>
+              </li>
+  
+             
+            </ul>
+  
+            <div class="slider-controls">
+              <button class="slider-control prev" data-service-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+  
+              <button class="slider-control next" data-service-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+  
+          </div>
+  
+        </section>
+  
+
+        <!-- 
+        - Testimonia
+        -->
+
+        <section class="section testimonia">
+
+          <div class="container">
+
+            <h2 class="h2 section-title text-lg">What Users Say About Us</h2>
+
+            <hr class="title-line">
+            
+            <p class="section-text">More than 10 million customers worldwide trust and earn from us daily.</p>
+
+            <div class="slider" data-service-slider>
+
+              <ul class="slider-container" data-service-slider-container>
+
+                <li class="slider-item" data-service-slider-items>
+
+                  <div class="testimonia-card">
+
+                    <p class="card-text">Two weeks ago, i was laid off. with no option left, i thought 
+                      my life was over. now am making over $1,261.42 each and every day. 
+                      And for the first time in 2 months, my account isn't overdrawn.
+                      Thanks Cryptexfx
+                    </p>
+
+                    <div class="profile">
+                      <img src="./images/T1.png" class="profile-img" alt="">
+
+                      <div>
+                        <h4 class="h4 card-title">Marnie Lotter</h4>
+                       <p class="card-text">UID 37046899</p>
+                      </div>                     
+                    </div>
+                    
+                    <img src="./images/quote.svg" class="quote-img" alt="quote" width="70" height="70">
+                  </div>
+
+                </li>
+
+                <li class="slider-item" data-service-slider-items>
+
+                  <div class="testimonia-card">
+
+                    <p class="card-text">
+                      i've been a member of Cryptexfx for only 47 days. but my
+                      life has already changed! not only have i made my $10k, but i've
+                      also meet some incredible people in the process. Thanks, Cryptexfx.
+                    </p>
+
+                    <div class="profile">
+                      <img src="./images/client1.jpg" class="profile-img" alt="">
+
+                      <div>
+                        <h4 class="h4 card-title">Wilson U</h4>
+                        <p class="card-text">UID 36488973</p>
+                      </div>                     
+                    </div>
+                    
+                    <img src="./images/quote.svg" class="quote-img" alt="quote" width="70" height="70">
+                  </div>
+
+                </li>
+
+                <li class="slider-item" data-service-slider-items>
+
+                  <div class="testimonia-card">
+                    
+                    <p class="card-text">
+                      I finanly know whats its like to live the dream. i no longer feel like am on the
+                      outside looking in while everyone else has all the fun. Cryptexfx has allowed me to
+                      retire early and live the 1% lifestyle.
+                    </p>
+
+                      <div class="profile">
+                        <img src="./images/pic1.jpg" class="profile-img" alt="">
+
+                        <div>
+                          <h4 class="h4 card-title">Stacy H</h4>
+                          <p class="card-text">UID 39051737</p>
+                        </div>                     
+                      </div>
+
+                      <img src="./images/quote.svg" class="quote-img" alt="quote" width="70" height="70">
+                  </div>
+
+                </li>
+
+                <li class="slider-item" data-service-slider-items>
+
+                  <div class="testimonia-card">
+                    
+                    <p class="card-text">
+                      "Surprisingly, I used to be an investor on Wall Street. 
+                      And I’ve never seen anything like this in my 10 year tenure 
+                      at the company. My colleagues all thought I was crazy when I 
+                      quit the firm to invest with Cryptexfxtrade software full-time.
+                    </p>
+
+                      <div class="profile">
+                        <img src="./images/pic3.jpg" class="profile-img" alt="">
+
+                        <div>
+                          <h4 class="h4 card-title">ROSE A</h4>
+                          <p class="card-text">UID 377291787</p>
+                        </div>                     
+                      </div>
+
+                      <img src="./images/quote.svg" class="quote-img" alt="quote" width="70" height="70">
+                  </div>
+
+                </li>
+
+              </ul>
+
+
+              <div class="slider-controls">
+                <button class="slider-control prev" data-service-slider-prev aria-label="slide to
+                  previous item">
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+
+                <button class="slider-control next" data-service-slider-next aria-label="slide to
+                  next item">
+                    <div class="line"></div>
+                    <div class="arrow"></div>
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+
+      </article>
+    </main>
+
+
+    <!-- 
+       - widget
+    -->
+
+    <div style="height:433px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; 
+    border-radius: 4px; text-align: right; line-height:14px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; 
+    box-shadow: inset 0 -20px 0 0 #56667F; padding: 0px; margin: 0px; width: 100%;"><div style="height:413px; padding:0px; margin:0px; 
+    width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=full_v2&theme=light&cnt=6&pref_coin_id=1505&graph=yes" width="100%" 
+    height="409px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;">
+  </iframe></div><div style="color: #FFFFFF; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding:
+   2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank" style="font-weight:
+    500; color: #FFFFFF; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by Coinlib</div></div>
+
+      <!-- 
+        - Footer
+      -->
+
+      <footer class="home-footer">
+        <div class="container">
+
+          <div class="card footer">
+
+            <div class="section footer-top">
+
+              <div class="footer-brand">
+
+                <a href="./index.html" class="logo">
+                  <img src="./images/cex.svg" alt="" width="32" height="32" />
+                  Cryptex<span>fx</span>
+                </a>
+
+                <p class="footer-text">
+                  Cryptexfx Trading is one of the leading platforms in the united state offering binary options,
+                  Forex and spreads. Regulated by the CTFC and based in New Yock. It is also regulated by the IFSC
+                  of Belize, as well as the Cyprus securities and Exchange Commission.
+                </p>
+
+                <p class="footer-list-title">Address</p>
+
+                <address class="footer-text address">
+                  5895 W. Olympic Blvd. <br> 
+                  Los Angeles, CA 90036
+                </address>
+
+              </div>
+
+              <div class="footer-list">
+
+                <p class="footer-list-title">Useful Links</p>
+
+                <ul>
+
+                  <li>
+                    <a href="./index.html" class="footer-link hover-2">Home</a>
+                  </li>
+
+                  <li>
+                    <a href="./plans.html" class="footer-link hover-2">Plans</a>
+                  </li>
+
+                  <li>
+                    <a href="./terms.html" class="footer-link hover-2">Terms</a>
+                  </li>
+
+                  <li>
+                    <a href="./login.html" class="footer-link hover-2">Login</a>
+                  </li>
+
+                  <li>
+                    <a href="./about.html" class="footer-link hover-2">About</a>
+                  </li>
+
+                  <li>
+                    <a href="./faqs.html" class="footer-link hover-2">FAQ's</a>
+                  </li>
+
+                  <li>
+                    <a href="./support.html" class="footer-link hover-2">Support</a>
+                  </li>
+
+                  <li>
+                    <a href="./register.html" class="footer-link hover-2">Register</a>
+                  </li>
+
+                </ul>
+
+              </div>
+
+              <div class="footer-list">
+                
+                <p class="footer-text">
+                  Sign up to be the first to receive the latest stories inspiring us, case studies, 
+                  and industry news.
+                </p>
+
+                <div class="input-wrapper">
+                  <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+                  <ion-icon name="person-outline" aria-hidden="true" ></ion-icon>
+                </div>
+
+                <div class="input-wrapper">
+                  <input type="email" name="email_address" placeholder="Email address" required class="input-field" autocomplete="off">
+
+                  <ion-icon name="mail-outline" aria-hidden="true" ></ion-icon>
+                </div>
+
+                <a href="#" class="btn btn-primary">
+                  Subscribe
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+              <p class="copyright">
+                Copyright &copy; 2023 Cryptexfx Trading. All Rights Reserved.
+              </p>
+
+              <ul class="social-list">
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+
+                    <span class="span">Twitter</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+
+                    <span class="span">Instagram</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+
+                    <span class="span">Whatsapp</span>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>  
+
+        </div>
+      </footer>
+
+    <!-- 
+    - Back to top
+    -->
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+      <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+    <!-- 
+    - Custom js link
+    -->
+    <script src="./js/index.js"></script>
+    <!-- 
+    - ionicon link
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
